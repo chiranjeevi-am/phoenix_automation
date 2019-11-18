@@ -20,4 +20,5 @@ from phoenix import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url('homepage',views.homepage),
+    url('index/',views.index),
 ]

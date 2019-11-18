@@ -20,4 +20,4 @@ def homepage(request):
 
 def index(request):
     Emp = EmpForm()
-    return render(request,"index.html",{'forms':Emp})
+    return render(request,"index.html",{'form':Emp})
